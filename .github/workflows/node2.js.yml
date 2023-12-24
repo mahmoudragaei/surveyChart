@@ -28,5 +28,6 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
+    - run: npm install chart.js
     - run: npm install react-charts@beta --save
     - run: npm test
