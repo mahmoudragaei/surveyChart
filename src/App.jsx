@@ -1,4 +1,3 @@
-import 'survey-core/defaultV2.min.css';
 import { Model } from 'survey-core';
 import { surveyJson } from './Components/data.js'
 import { Survey } from 'survey-react-ui';
