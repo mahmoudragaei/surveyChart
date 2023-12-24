@@ -25,7 +25,7 @@ function App() {
 
   survey.onComplete.add(alertResults);
   return (<section>
-    {!data && <Survey model={survey}  />}
+    {!data && <Survey model={survey} />}
     {data && <MyChart data={data} />}
   </section>);
   //return <MyChart data ={data}/>
