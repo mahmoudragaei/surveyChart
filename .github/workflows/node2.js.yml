@@ -33,7 +33,7 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
     - name: Fix permissions
-    - run: |
+      run: |
         chmod -c -R +rX "_site/" | while read line; do
         echo "::warning title=Invalid file permissions automatically fixed::$line"
         done
