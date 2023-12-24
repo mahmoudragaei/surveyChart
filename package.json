@@ -1,6 +1,7 @@
 {
   "name": "react-essentials-start",
   "version": "0.0.0",
+  "homepage": "https://mahmoudragaei.github.io/surveyChart",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
