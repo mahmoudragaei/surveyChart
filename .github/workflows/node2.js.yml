@@ -27,7 +27,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install 
-    - run: npm run build --if-present
+    - run: npm install survey-react-ui --save 
     - run: npm install chart.js
     - run: npm install react-charts@beta --save
+    - run: npm run build --if-present
     - run: npm test
